@@ -2,7 +2,16 @@
 
 A Tailwind CSS preset that provides semantic colors, optimized defaults, and essential plugins.
 
-### Usage
+## Features
+
+- 🧩 Essential Tailwind plugins pre-configured
+- 🎨 Semantic color system with dark mode support
+- 🔤 Optimized typography with Roboto font families
+- 🌗 Dark mode support via className strategy
+
+## Usage
+
+### Configure Tailwind
 
 Add the preset to your `tailwind.config.ts`:
 
@@ -14,7 +23,7 @@ export default {
 };
 ```
 
-Load the Roboto fonts:
+Add the Roboto fonts:
 
 ```html
 <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -24,3 +33,22 @@ Load the Roboto fonts:
   rel="stylesheet"
 />
 ```
+
+## Features
+
+### Fonts
+
+The preset provides Roboto font with `font-sans`, `font-serif` and `font-mono`.
+
+### Colors
+
+The preset provides semantic color `positive`, `negative`, `warning`, `info` and `neutral`.
+
+### Plugins
+
+Pre-configured plugins
+
+- [@tailwindcss/typography](https://tailwindcss.com/docs/typography-plugin) - Beautiful typographic defaults
+- [@tailwindcss/forms](https://github.com/tailwindlabs/tailwindcss-forms) - Form element styling
+- [@tailwindcss/aspect-ratio](https://github.com/tailwindlabs/tailwindcss-aspect-ratio) - Aspect ratio utilities
+- [@tailwindcss/container-queries](https://github.com/tailwindlabs/tailwindcss-container-queries) - Container query support
